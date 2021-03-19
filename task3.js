@@ -1,5 +1,5 @@
 const flatArray = (array) => {
-    let result;
+    let result = 0;
     if (array instanceof Array) {
         result = (array.flat(1)).filter(Number);array.flat(1);
     } else {
