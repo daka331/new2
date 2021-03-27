@@ -21,4 +21,3 @@ console.log(isArrayEqual([1, 2, 3], [1, 2, 3])); // true
 console.log(isArrayEqual([1, null, 3], [1, undefined, 3])); // false
 console.log(isArrayEqual([false, null], [true, null])); // false
 
-    
